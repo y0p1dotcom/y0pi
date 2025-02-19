@@ -4,18 +4,18 @@ name: "TryHackMe Badge Action Workflow"
     default: "./assets/tryhackme-badge.png"
     required: false
   username:
-    description: "Your TryHackMe username"
+    description: "y0pi"
     required: true
   user_id:
-    description: "Your TryHackMe user_id"
+    description: "https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1157207"
     required: true
   committer_username:
-    description: "Your GitHub username"
+    description: "y0p1dotcom"
     default: "dhanushnehru"
     required: false
   commit_message:
     description: "Commit message"
-    default: "Updated THM profile badge"
+    default: "https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1157207"
     required: false
   GITHUB_TOKEN:
     description: "Your GitHub Token"
